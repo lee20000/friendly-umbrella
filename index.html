@@ -1,42 +1,29 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2487.5">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000; min-height: 14.0px}
-    span.s1 {font-kerning: none}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Redirect</title>
+    <script>
+        // Define the two questionnaire links
+        var linkX = "https://forms.gle/e8wjMTLjNbALkdUEA"; // Link 1
+        var linkY = "https://forms.gle/K8SmDBTgWdJV51vA7"; // Link 2
+
+        // 50/50 randomization
+        var randomLink = Math.random() < 0.5 ? linkX : linkY;
+
+        // Redirect to the selected link immediately
+        window.location.href = randomLink;
+    </script>
 </head>
 <body>
-<p class="p1"><span class="s1">&lt;!DOCTYPE html&gt;</span></p>
-<p class="p1"><span class="s1">&lt;html lang="en"&gt;</span></p>
-<p class="p1"><span class="s1">&lt;head&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;title&gt;Random Redirect&lt;/title&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;script&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>// Define the two questionnaire links</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>var linkX = "https://forms.gle/e8wjMTLjNbALkdUEA"; // Replace with actual link</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>var linkY = "https://forms.gle/K8SmDBTgWdJV51vA7"; // Replace with actual link</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span></span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>// 50/50 randomization</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>var randomLink = Math.random() &lt; 0.5 ? linkX : linkY;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>// Redirect to the selected link</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>window.location.href = randomLink;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/head&gt;</span></p>
-<p class="p1"><span class="s1">&lt;body&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;p&gt;If you are not redirected, &lt;a id="redirectLink" href="#"&gt;click here&lt;/a&gt;.&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;script&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>document.getElementById("redirectLink").href = randomLink;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/body&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/html&gt;</span></p>
+    <noscript>
+        <p>JavaScript is required for this page to work. Please enable JavaScript and refresh the page.</p>
+    </noscript>
+    <p>If you are not redirected, <a id="redirectLink" href="#">click here</a>.</p>
+    <script>
+        // Set the fallback link in case the redirect doesn't work
+        document.getElementById("redirectLink").href = randomLink;
+    </script>
 </body>
 </html>
